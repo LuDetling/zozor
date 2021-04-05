@@ -1,0 +1,191 @@
+* {
+    font-family: sans-serif;
+}
+
+body {
+    margin: 0;
+    background: #F7EBCC;
+}
+
+header {
+    margin-top: 0;
+    background: #FFF8E0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 40px;
+}
+
+.imgnomlogo {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    width: 150px;
+}
+
+.nomlogo {
+    margin: 0;
+}
+
+.logo p {
+    margin: 0;
+    text-align: end;
+    font-size: 18px;
+}
+
+.navigation {
+    margin-top: 60px;
+}
+
+.navigation a {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: black;
+    margin-left: 15px;
+}
+
+.navigation a:hover {
+    color: darkred;
+    border-bottom: solid 2px;
+}
+
+.bar {
+    background: url(images/separateur.png);
+    height: 3px;
+    margin: 10px 0;
+}
+
+.dernierarticle {
+    margin: 15px 40px;
+    background: url(images/sanfrancisco.jpg) center/ cover;
+    height: 220px;
+    display: block;
+    border: solid 0.1px transparent;
+    border-radius: 8px;
+}
+
+.descriptionarticle {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: flex-end;
+    color: white;
+    background: #1119;
+    margin-top: 171px;
+    border-radius: 0 0 8px 8px;
+    padding: 0 10px;
+}
+
+.descriptionarticle a {
+    background: linear-gradient(#A85D5E, #710203);
+    border-radius: 5px;
+    padding: 7px;
+    text-decoration: none;
+    color: inherit;
+}
+
+.page {
+    display: flex;
+    margin: 15px 40px
+}
+
+.page article {
+    width: 85%;
+    margin-right: 20px;
+}
+
+.article h1 {
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+}
+
+.article p {
+    text-align: justify;
+}
+
+.bulle {
+    width: 12px;
+    height: 17px;
+    position: relative;
+    top: 170px;
+}
+
+.aside {
+    width: 20%;
+    background: #6E6962;
+    text-align: center;
+    border-radius: 7px;
+}
+
+.aside h1 {
+    text-transform: uppercase;
+}
+
+.zozorclasse {
+    border: solid 2px black;
+}
+
+.aside p {
+    text-align: justify;
+    margin: 15px;
+}
+
+.social {
+    display: flex;
+    justify-content: space-around;
+    margin: 0 15px 7px;
+}
+
+.bar img {
+    position: relative;
+    left: 50%;
+}
+
+footer {
+    background: #FFF8E0;
+    padding: 15px 40px;
+    display: flex;
+    justify-content: space-between
+}
+
+.tweet h3 {
+    text-transform: uppercase;
+}
+
+.photos h3 {
+    text-transform: uppercase;
+}
+
+.photos img {
+    border: solid 1px;
+}
+
+.amis {
+    width: 30%;
+}
+
+.amis h3 {
+    text-transform: uppercase;
+    margin-bottom: 0;
+}
+
+.listeamis {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.listeamis ul {
+    list-style: none;
+    padding: 0;
+    color: indianred;
+}
+
+.listeamis li::before {
+    content: '';
+    background: url(images/ico_liensexterne.png) center /cover;
+    width: 7px;
+    height: 9px;
+    display: inline-block;
+}
